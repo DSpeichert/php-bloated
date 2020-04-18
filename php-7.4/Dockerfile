@@ -7,6 +7,7 @@ RUN chmod uga+x /usr/local/bin/install-php-extensions \
     && install-php-extensions \
         apcu \
         bcmath \
+        decimal \
         gd \
         grpc \
         igbinary \
