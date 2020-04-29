@@ -9,6 +9,7 @@ RUN chmod uga+x /usr/local/bin/install-php-extensions \
         bcmath \
         decimal \
         gd \
+        gmp \
         grpc \
         igbinary \
         imap \
