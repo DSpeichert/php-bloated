@@ -1,6 +1,6 @@
 # Docker image for PHP-FPM with too many useful extensions
 
-![](https://github.com/DSpeichert/php-bloated/workflows/docker%20build%20PHP%207.4/badge.svg)
+![docker build PHP 7.4](https://github.com/DSpeichert/php-bloated/workflows/docker%20build%20PHP%207.4/badge.svg)
 
 Ideally, when creating a Docker image for your application, you'd custom-tailor the Dockerfile
 to include only the extensions you need. I found myself doing that a lot. It takes time and
