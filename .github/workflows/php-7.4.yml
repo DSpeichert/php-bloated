@@ -2,6 +2,9 @@
 name: docker build PHP 7.4
 
 on:
+  repository_dispatch:
+    types: build_image
+
   schedule:
     - cron: '0 13 * * 1'
 
