@@ -15,6 +15,7 @@ RUN chmod uga+x /usr/local/bin/install-php-extensions \
         apcu \
         bcmath \
         decimal \
+        exif \
         gd \
         gettext \
         gmp \
