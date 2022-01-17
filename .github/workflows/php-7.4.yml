@@ -21,8 +21,6 @@ env:
   IMAGE_NAME: php-7.4
 
 jobs:
-  # Push image to GitHub Package Registry.
-  # See also https://docs.docker.com/docker-hub/builds/
   push:
     runs-on: ubuntu-latest
 
