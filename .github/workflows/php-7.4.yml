@@ -19,7 +19,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: php-7.4
+  IMAGE_NAME: ${{ github.repository }}/php-7.4
 
 jobs:
   push:
