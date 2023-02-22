@@ -1,5 +1,5 @@
 ---
-name: docker build PHP 7.4
+name: docker build PHP 8.2
 
 on:
   repository_dispatch:
@@ -19,7 +19,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: php-7.4
+  IMAGE_NAME: php-8.2
 
 jobs:
   push:
