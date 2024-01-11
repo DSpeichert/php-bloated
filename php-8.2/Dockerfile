@@ -16,6 +16,7 @@ RUN chmod uga+x /usr/local/bin/install-php-extensions \
         bcmath \
         calendar \
         decimal \
+        excimer \
         exif \
         gd \
         gettext \
