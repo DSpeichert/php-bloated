@@ -5,8 +5,7 @@ on:
   repository_dispatch:
     types: build_image
 
-  schedule:
-    - cron: '0 13 * * 1'
+  workflow_dispatch:
 
   push:
     # Publish `master` as Docker `latest` image.
