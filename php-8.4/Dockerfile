@@ -26,7 +26,6 @@ RUN chmod uga+x /usr/local/bin/install-php-extensions \
         imap \
         intl \
         mailparse \
-        mcrypt \
         opcache \
         pcntl \
         pdo_mysql \
